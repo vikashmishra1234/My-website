@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+
+.contact {
+  display: flex;
+  height: 90vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+  height: 76vh;
+  align-items: center;
+  box-shadow: 0 3px 10px blue;
+  border: none;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.form input {
+  margin: 27px;
+  width: 20vw;
+  text-align: center;
+  height: 5vh;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.msg {
+  position: absolute;
+  top: 10%;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.email {
+  position: absolute;
+  left: 8%;
+  font-size: 20px;
+  top: 32%;
+}
+
+.password {
+  position: absolute;
+  top: 48%;
+  font-size: 20px;
+  left: 7%;
+}
+
+.buttonss {
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+
+  flex-direction: column;
+}
+
+.btn-contact {
+  background: blue;
+
+  width: 6vw;
+  border: 1px solid;
+}
+.signup {
+  cursor: pointer;
+  position: relative;
+  bottom: -3%;
+}
+
+@media only screen and (max-width: 550px) {
+  .form {
+    width: 90vw;
+    height: 60vh;
+  }
+
+  .v-nav {
+    height: 30vh;
+  }
+
+  .msg {
+    font-size: 25px;
+  }
+
+  .form input {
+    width: 50vw;
+  }
+
+  .email {
+    left: 4%;
+    font-size: 19px;
+  }
+
+  .password {
+    font-size: 17px;
+    left: 4%;
+  }
+
+  .buttonss {
+  }
+
+  .btn-contact {
+    width: 13vw;
+  }
+
+  .contact {
+    height: 70vh;
+  }
+}
+.signup {
+}
